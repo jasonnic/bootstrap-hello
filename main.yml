@@ -4,4 +4,4 @@
   - name: ping 
     ping: 
   - name: echo 
-    shell: echo Hello World! > hello_world
+    shell: echo Hello World! > /tmp/hello_world
