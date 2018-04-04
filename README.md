@@ -1,7 +1,8 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Test for: `ansible-pull main.yml -U https://github.com/jasonnic/bootstrap-hello -f --clean --accept-host-key -i localhost, -e git_respository=https://github.com/jasonnic/bootstrap-hello -e environment=dev -e role=main`
+
 
 Requirements
 ------------
