@@ -1,5 +1,7 @@
 ---
 - hosts: all
   tasks:
-  - name: HelloWorld
-    shell: touch success.tmp
+  - name: ping 
+    ping: 
+  - name: echo 
+    shell: echo Hello World! > hello_world
